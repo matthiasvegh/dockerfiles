@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+userns_child_exec -m -z -U bash "$@"
